@@ -1,0 +1,3 @@
+curl -H 'Content-Type: application/json' -XPOST https://search-yelp-nyc-otn4hvekofuizu3y6tfcpdarwq.us-east-1.es.amazonaws.com/restaurant/_bulk --data-binary @es.json
+
+https://search-yelp-nyc-otn4hvekofuizu3y6tfcpdarwq.us-east-1.es.amazonaws.com/restaurants/Restaurant/_search?q=indian
